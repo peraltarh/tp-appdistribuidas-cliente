@@ -51,15 +51,15 @@ public class Prueba {
     			
     			
     			//falla al ingresar 2do Empresa. Clientes funciona
-//    			iE.altaEmpresa("DirEmpresa2","999999","Razon02","cuit02","Regular");
+    			iE.altaEmpresa("DirEmpresa2","999999","Razon02","cuit02","Regular");
     			
 //    			
-    			iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");
+//    			iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");
 //    			
-    			iE.altaProducto("TipoComun", "1kg de cocaina", "cuit01");
-    			iE.altaProducto("TipoComun", "caja de absenta", "cuit01");
-    			iE.altaMovimientoCuenta(null, 500, 999999);
-    			iE.agregarEmpresaDireccionValida("DireccionValida 01","54654645","cuit01");
+//    			iE.altaProducto("TipoComun", "1kg de cocaina", "cuit01");
+//    			iE.altaProducto("TipoComun", "caja de absenta", "cuit01");
+//    			iE.altaMovimientoCuenta(null, 500, 999999);
+//    			iE.agregarEmpresaDireccionValida("DireccionValida 01","54654645","cuit01");
     			
     			
     		} catch (RemoteException e) {
