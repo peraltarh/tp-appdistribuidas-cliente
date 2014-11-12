@@ -45,8 +45,8 @@ public class Prueba {
     			
     			
     			
-//    			iE.altaParticular("salta 1234", "543523", "Pepe", "Garcia", "32243243");
-//    			iE.altaParticular("salta 1234", "41233", "Damian", "M", "34554567");
+    			iE.altaParticular("salta 1234", "543523", "Pepe", "Garcia", "32243243");
+    			iE.altaParticular("salta 1234", "41233", "Damian", "M", "34554567");
     			iE.altaEmpresa("DirEmpresa","3432423","Razon01","cuit01","Regular");
     			
     			
@@ -54,12 +54,12 @@ public class Prueba {
     			iE.altaEmpresa("DirEmpresa2","999999","Razon02","cuit02","Regular");
     			
 //    			
-//    			iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");
+    			iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");
 //    			
-//    			iE.altaProducto("TipoComun", "1kg de cocaina", "cuit01");
-//    			iE.altaProducto("TipoComun", "caja de absenta", "cuit01");
-//    			iE.altaMovimientoCuenta(null, 500, 999999);
-//    			iE.agregarEmpresaDireccionValida("DireccionValida 01","54654645","cuit01");
+    			iE.altaProducto("TipoComun", "1kg de cocaina", "cuit01");
+    			iE.altaProducto("TipoComun", "caja de absenta", "cuit01");
+    			iE.altaMovimientoCuenta(null, 500, 999999);
+    			iE.agregarEmpresaDireccionValida("DireccionValida 01","54654645","cuit01");
     			
     			
     		} catch (RemoteException e) {
