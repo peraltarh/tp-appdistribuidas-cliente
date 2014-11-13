@@ -49,15 +49,9 @@ public class Prueba {
     			iE.altaParticular("salta 1234", "41233", "Damian", "M", "34554567");
     			iE.altaEmpresa("DirEmpresa","3432423","Razon01","cuit01","Regular");
     			iE.altaEmpresa("DirEmpresa2","999999","Razon02","cuit02","Regular");
-    			
-//    			
-    			
-    			
     			iE.altaProducto("TipoComun", "1kg de cocaina", "cuit01");
     			iE.altaProducto("TipoComun", "caja de absenta", "cuit01");
-//    			iE.altaMovimientoCuenta(null, 500, 999999);
     			iE.agregarEmpresaDireccionValida("DireccionValida 01","54654645","cuit01");
-    			
     			iE.altaSucursal("sucursal1","Direccion1","Gerente1","EncDespacho1","EncRecep1");
     			iE.altaSucursal("sucursal2","Direccion2","Gerente2","EncDespacho2","EncRecep2");
     			
@@ -69,6 +63,8 @@ public class Prueba {
     			
     		
     			iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");			
+    			iE.altaMovimientoCuenta(null, 500, 999999);
+
     			
     		} catch (RemoteException e) {
     			// TODO Auto-generated catch block
