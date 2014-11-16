@@ -10,6 +10,9 @@ import java.util.GregorianCalendar;
 
 import javax.swing.JOptionPane;
 
+import beans.ClienteBean;
+import beans.SucursalBean;
+
 //Con RMI no deberia ir
 
 
@@ -61,7 +64,7 @@ public class Prueba {
 
 				iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");			
 				iE.altaMovimientoCuenta(null, 500, 999999);
-
+				iE.altaPedido("manifiesto", "dirDestino", null,	null, "condEspeciales",null, null,	"dirDeRetiroSoloEmpresa", 2, "sucursal1","cuit01", "cuit");
 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
