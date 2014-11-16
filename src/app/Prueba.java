@@ -64,7 +64,10 @@ public class Prueba {
 
 				iE.altaCuentaCorriente(999999, 0, 5000, "cuit01");			
 				iE.altaMovimientoCuenta(null, 500, 999999);
-				iE.altaPedido("manifiesto", "dirDestino", null,	null, "condEspeciales",null, null,	"dirDeRetiroSoloEmpresa", 2, "sucursal1","cuit01", "cuit");
+				iE.altaPedido("manifiesto", "dirDestino", null,	null, "condEspeciales",null, null,	"dirDeRetiroSoloEmpresa", 2,"proceso", "sucursal1","cuit01", "cuit");
+				iE.altaPedido("manifiesto2", "dirDestino2", null,	null, "condEspeciales2",null, null,	"dirDeRetiroSoloEmpresa2", 3,"proceso", "sucursal1","cuit02", "cuit");
+				iE.altaPedido("manifiesto3", "dirDestino3", null,	null, "condEspeciales3",null, null,	"dirDeRetiroSoloEmpresa3", 3,"proceso", "sucursal2","cuit01", "cuit");
+				
 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
