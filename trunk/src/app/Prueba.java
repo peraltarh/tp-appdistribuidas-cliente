@@ -73,10 +73,6 @@ public class Prueba {
 				iE.altaPedido("manifiesto2", "dirDestino2", null,	null, "condEspeciales2",null, null,	"dirDeRetiroSoloEmpresa2", 3,"proceso", "sucursal1","cuit02", "cuit");
 				iE.altaPedido("manifiesto3", "dirDestino3", null,	null, "condEspeciales3",null, null,	"dirDeRetiroSoloEmpresa3", 3,"proceso", "sucursal2","cuit01", "cuit");
 				
-				List<PedidoBean> pedidosBeans=iE.getPedidosPorEstado("proceso");
-				for (PedidoBean pedidoBean : pedidosBeans) {
-					System.out.println("\n\n"+pedidoBean.getIdPedido());
-				}
 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
