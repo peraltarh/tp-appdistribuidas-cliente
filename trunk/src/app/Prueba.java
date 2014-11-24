@@ -6,6 +6,8 @@ import interfaz.InterfazEnvios;
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 
+import beans.PedidoBean;
+
 
 //Con RMI no deberia ir
 
@@ -70,6 +72,9 @@ public class Prueba {
 					System.out.println(nombreS);
 				}
 				
+				PedidoBean pedB = iE.getPedido(1);
+				
+				pedB.getIdPedido();
 				
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
