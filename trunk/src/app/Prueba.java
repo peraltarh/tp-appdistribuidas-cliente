@@ -66,6 +66,11 @@ public class Prueba {
 				pedN = iE.altaPedido("manifiesto3", "dirDestino3", null,	null, "condEspeciales3",null, null,	"dirDeRetiroSoloEmpresa3", 3,"proceso", "sucursal2","32243243", "dni");
 				System.out.println("Nuevo Pedido Id: "+pedN);
 
+				for (String nombreS : iE.getListaNombresSucursales()) {
+					System.out.println(nombreS);
+				}
+				
+				
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
