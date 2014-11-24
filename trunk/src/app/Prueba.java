@@ -80,9 +80,6 @@ public class Prueba {
 //				pedB.getIdPedido();
 				//PedidoBean pedB = new PedidoBean("manifiesto", "dirDestino", null,	null, "condEspeciales",null, null,	"dirDeRetiroSoloEmpresa", 2,"proceso", null, null);
 				PedidoBean pedB =	iE.getPedido(1);
-				MercaderiaBean mercB = new MercaderiaPorPesoBean(5, 2, 3, "Fragil", false, 0, "Refrigerado", "Con cuidado", "00,00", 100, null, pedB, null);
-				pedB.addMercaderia(mercB);
-				iE.actualizarPedido(pedB);
 				iE.cerrarPedido(pedB);
 				
 			} catch (RemoteException e) {
