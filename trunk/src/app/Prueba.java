@@ -80,7 +80,7 @@ public class Prueba {
 //				pedB.getIdPedido();
 				//PedidoBean pedB = new PedidoBean("manifiesto", "dirDestino", null,	null, "condEspeciales",null, null,	"dirDeRetiroSoloEmpresa", 2,"proceso", null, null);
 				PedidoBean pedB =	iE.getPedido(1);
-				iE.cerrarPedido(pedB);
+				System.out.println( iE.cerrarPedido(pedB));
 				
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
